@@ -11,7 +11,7 @@ git clone https://github.com/vbrinza/http_basic_check
 ```
 2. Start a virtual environment
 ```
-python3 -m venv http_basic_check && source http_basic_check/bin/activate
+python3 -m venv http_basic_check && source http_basic_check/bin/activate && cd http_basic_check
 ```
 3. Install dependencies
 ```
