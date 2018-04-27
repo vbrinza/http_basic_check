@@ -1,7 +1,6 @@
 # basic-http_check
 Prerequisites:
-1. Docker 18.03 ce
-2. Python 3
+ Python 3
 
 How to run:
 1. Clone the repo
