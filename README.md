@@ -1,4 +1,6 @@
 # basic-http_check
+NOTE: Supported only the 200, 404 and 500 HTTP responses
+
 Prerequisites:
  Python 3
 
@@ -15,7 +17,7 @@ python3 -m venv http_basic_check && source http_basic_check/bin/activate
 ```
 pip install -r requirements.txt
 ```
-4. Start a sample HTTP server and inject the supported by the check HTTP verbs
+4. Start an HTTP server and inject the supported by the check HTTP verbs
 ```
 ./basic_http_server.py -verb 200  # to simulate 200
 ./basic_http_server.py -verb 404  # to simulate 404
